@@ -13,7 +13,6 @@ terraform {
         encrypt = true
     }
     
-    
     resource "aws_s3_bucket" "this"{
         provider =aws.Test
         bucket = "tform-state-9312066507"
